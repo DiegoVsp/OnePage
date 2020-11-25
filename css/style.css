@@ -11,6 +11,11 @@
   border-radius: 30px;
   height: 100%;
 }
+
+/* .btn-orcamento:focus {
+  box-shadow: none;
+} */
+
 .btn-orcamento:hover {
   color: #68627a;
   background: #fff;
