@@ -24,3 +24,18 @@
   -moz-transition: all .50s ease-in-out;
   -webkit-transition: all .50s ease-in-out;
 }
+
+/* Indicators e carousel controls */
+.carousel-control-next {
+  opacity: 1;
+  filter: invert(1);
+}
+
+.carousel-control-prev {
+  opacity: 1;
+  filter: invert(1);
+}
+
+.carousel-indicators {
+  filter: invert(1);
+}
