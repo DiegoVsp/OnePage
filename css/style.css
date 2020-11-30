@@ -55,7 +55,7 @@
 /* Seção Parallax */
 .bg-parallax {
   background: url(../imagens/bg.jpg) fixed;
-  position: relative;
+  /* position: relative; */
 }
 .fatos {
   text-align: center;
@@ -133,6 +133,32 @@
   -moz-transition: all .50s ease-in-out;
   -webkit-transition: all .50s ease-in-out;
 }
+
+/* Rodapé */
+.bg-rodape1 {
+  background-color: #312b45;
+}
+.bg-rodape1 ul {
+  /* retira padding start */
+  -webkit-padding-start: 0;
+  -moz-padding-start:0;
+}
+.bg-rodape1 ul li {
+  list-style: none;
+}
+.bg-card-rodape {
+  background-color: #ff3859;
+}
+.icon-banner-rodape {
+  color: #c42841;
+}
+
+.bg-rodape2 {
+  background-color: #4f4964;
+}
+a.icone-social {
+  color: #c2aebb;
+}
 /* configurações Gerais */
 .underline {
   content: "";
@@ -142,7 +168,13 @@
   margin-bottom: 8px;
   margin: 0 auto;
 }
-
+.underline-footer {
+  content: "";
+  border-top: 2px solid #ff3859;
+  width: 70px;
+  display: block;
+  margin-top: 5px;
+}
 .sombra:hover {
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1 );
   transform: scale(0.98);
